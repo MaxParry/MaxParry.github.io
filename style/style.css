@@ -3,5 +3,16 @@
     background-color: lightseagreen
 }
 .abox {
-    background-color: purple;
+    background: purple;
 }
+
+.row {
+    display: flex;
+}
+
+.img_float1 {
+    float: left;
+    margin-right: 1em;
+}
+/* $grid-gutter-width: 30px; */
+

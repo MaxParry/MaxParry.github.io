@@ -46,33 +46,48 @@
         <!-- summary box -->
         <div class='container'>
             <div class='row'>
-                <div class='col-sm-12 col-md-7 abox'>
-                    <h1>Summary: Latitude vs. X</h1>
-                    <img width='200' src='resources/lat_vs_cld.png'>
-                    <p>This is an explanation of the project</p>
-                    <p>This is the rest of the explanation</p>
+                <div class='col-md-7 abox'>
+                    <div class='row'>
+                        <div class='col-12'>
+                            <h1 class='text-center'>Summary: Latitude vs. X</h1>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-12'>
+                            <img class='img_float1' width='345' src='resources/lat_vs_cld.png'>
+                            <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                        </div>
+                    </div>
                 </div>
         <!-- viz summary -->
-                <div class='col-sm-12 col-md-4 col-md-offset-1 abox'>
-                    <h2>Here are links to the visualizations pages: </h2>
-                    <div class='container'>
-                        <div class='row'>
-                            <div class='column'>
-                                <a href='viz_page_1.html'>
-                                    <img width='135' src='resources/lat_vs_cld.png'>
-                                </a>
-                                <a href='viz_page_2.html'>
-                                    <img width='135' src='resources/lat_vs_hum.png'>
-                                </a>
-                            </div>
-                            <div class='column'>
-                                <a href='viz_page_3.html'>
-                                    <img width='135' src='resources/lat_vs_temp.png'>
-                                </a>
-                                <a href='viz_page_4.html'>
-                                    <img width='135' src='resources/lat_vs_wind.png'>
-                                </a>
-                            </div>  
+                <div class='col-md-5 abox'>
+                    <div class='row'>
+                        <div class='col'>
+                            <h2 class='text-center'>Here are links to the visualization pages: </h2>
+                        </div>
+                    </div>
+                    <div class='row'>
+                        <div class='col-sm-3 col-md-6'>
+                            <a href='viz_page_1.html'>
+                                <img class='img-fluid' src='resources/lat_vs_cld.png'>
+                            </a>
+                        </div> 
+                        <div class='col-sm-3 col-md-6'>   
+                            <a href='viz_page_2.html'>
+                                <img class='img-fluid' src='resources/lat_vs_hum.png'>
+                            </a>
+                        </div> 
+                        <div class='col-sm-3 col-md-6'>
+                            <a href='viz_page_3.html'>
+                                <img class='img-fluid' src='resources/lat_vs_temp.png'>
+                            </a>
+                        </div>
+                        <div class='col-sm-3 col-md-6'>  
+                            <a href='viz_page_4.html'>
+                                <img class='img-fluid' src='resources/lat_vs_wind.png'>
+                                <!-- <img width='135' src='resources/lat_vs_wind.png'> -->
+                            </a>
                         </div>
                     </div>
                 </div>
