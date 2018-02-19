@@ -13,7 +13,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
         <!-- navbar -->
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-full">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,27 +46,35 @@
         <!-- summary box -->
         <div class='container'>
             <div class='row'>
-                <div class='col-md-8'>
+                <div class='col-sm-12 col-md-7 abox'>
                     <h1>Summary: Latitude vs. X</h1>
                     <img width='200' src='resources/lat_vs_cld.png'>
                     <p>This is an explanation of the project</p>
                     <p>This is the rest of the explanation</p>
                 </div>
         <!-- viz summary -->
-                <div class='col-md-4'>
+                <div class='col-sm-12 col-md-4 col-md-offset-1 abox'>
                     <h2>Here are links to the visualizations pages: </h2>
-                    <a href='viz_page_1.html'>
-                        <img width='200' src='resources/lat_vs_cld.png'>
-                    </a>
-                    <a href='viz_page_2.html'>
-                        <img width='200' src='resources/lat_vs_hum.png'>
-                    </a>
-                    <a href='viz_page_3.html'>
-                        <img width='200' src='resources/lat_vs_temp.png'>
-                    </a>
-                    <a href='viz_page_4.html'>
-                        <img width='200' src='resources/lat_vs_wind.png'>
-                    </a>
+                    <div class='container'>
+                        <div class='row'>
+                            <div class='column'>
+                                <a href='viz_page_1.html'>
+                                    <img width='135' src='resources/lat_vs_cld.png'>
+                                </a>
+                                <a href='viz_page_2.html'>
+                                    <img width='135' src='resources/lat_vs_hum.png'>
+                                </a>
+                            </div>
+                            <div class='column'>
+                                <a href='viz_page_3.html'>
+                                    <img width='135' src='resources/lat_vs_temp.png'>
+                                </a>
+                                <a href='viz_page_4.html'>
+                                    <img width='135' src='resources/lat_vs_wind.png'>
+                                </a>
+                            </div>  
+                        </div>
+                    </div>
                 </div>
              </div>
         </div>
