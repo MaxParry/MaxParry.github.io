@@ -2,23 +2,43 @@ body {
     background-color: gainsboro
 }
 
+.row {
+    padding:3%;
+}
+
 #homebutton {
     color: white;
     background-color: lightseagreen
 }
 
 .padme {
-    padding: 3% 3% 3% 3%
+    padding: 3% 3% 3% 3%;
+}
+
+.container {
+    margin: 1% 1% 1% 1%;
 }
 
 .abox {
-    background: whitesmoke;
+    /* background: whitesmoke; */
     /* margin: 1% */
     column-fill: initial;
 }
 
-.lilbox {
-    /* height: 250px; */
+.card {
+    rounded: 0;
+}
+
+h2 {
+    font-family:  Georgia,Times,"Times New Roman",serif;
+    color: lightseagreen;
+    font-weight: bold;   
+}
+
+h3 {
+    font-family:  Georgia,Times,"Times New Roman",serif;
+    color: lightseagreen;
+    font-weight: bold;   
 }
 
 /* .row {
