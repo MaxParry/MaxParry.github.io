@@ -13,11 +13,22 @@ body {
 
 .abox {
     background: whitesmoke;
+    /* margin: 1% */
+    column-fill: initial;
+}
+
+.lilbox {
+    /* height: 250px; */
 }
 
 /* .row {
     display: flex;
 } */
+
+.stopflex {
+    display: flex;
+    align-items: flex-start;
+ }
 
 .classWithPad { margin:20px; padding:20px; }
 
