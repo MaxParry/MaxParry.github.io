@@ -2,7 +2,7 @@ body {
     background-color: gainsboro
 }
 
-.row {
+.padrow {
     padding:3%;
 }
 
@@ -14,6 +14,10 @@ body {
 .headergroup {
     padding-top: 7%;
     padding-bottom: 0;
+}
+
+.card {
+    padding: 4%
 }
 
 .padme {
