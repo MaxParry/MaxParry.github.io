@@ -1,5 +1,6 @@
 body {
-    background-color: gainsboro
+    background-color: gainsboro;
+    padding-bottom:0;
 }
 
 .padrow {
@@ -20,6 +21,10 @@ body {
     padding: 4%
 }
 
+.footer p {
+    margin-bottom:0;
+}
+
 .padme {
     padding: 2% 2% 2% 2%;
 }
@@ -29,7 +34,7 @@ body {
 }
 
 p {
-    font-size: 14;
+    font-size: 13px;
 }
 
 .abox {
