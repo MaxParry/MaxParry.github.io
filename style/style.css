@@ -15,9 +15,9 @@ body {
     background: whitesmoke;
 }
 
-.row {
+/* .row {
     display: flex;
-}
+} */
 
 .classWithPad { margin:20px; padding:20px; }
 
