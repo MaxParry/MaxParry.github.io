@@ -8,7 +8,7 @@ body {
 }
 
 .padme {
-    padding: 3%
+    padding: 3% 3% 3% 3%
 }
 
 .abox {
@@ -18,6 +18,8 @@ body {
 .row {
     display: flex;
 }
+
+.classWithPad { margin:20px; padding:20px; }
 
 .img_float1 {
     float: left;
