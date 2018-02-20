@@ -9,7 +9,8 @@ body {
 
 #homebutton {
     color: white;
-    background-color: lightseagreen
+    background-color: lightseagreen;
+    margin-color: lightseagreen;
 }
 
 .headergroup {
