@@ -1,9 +1,18 @@
+body {
+    background-color: gainsboro
+}
+
 #homebutton {
     color: white;
     background-color: lightseagreen
 }
+
+.padme {
+    padding: 3%
+}
+
 .abox {
-    background: purple;
+    background: whitesmoke;
 }
 
 .row {
@@ -14,5 +23,5 @@
     float: left;
     margin-right: 1em;
 }
-/* $grid-gutter-width: 30px; */
+$grid-gutter-width: 30px;
 
